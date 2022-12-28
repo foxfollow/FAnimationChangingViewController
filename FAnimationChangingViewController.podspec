@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FAnimationChangingViewController'
-  s.version          = 'Version 0.1.0'
+  s.version          = '0.1.0'
   s.summary          = 'FAnimationChangingViewController gives functions for easy setup animations to push or pop to new ViewController.'
   s.homepage         = 'https://github.com/foxfollow/'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
