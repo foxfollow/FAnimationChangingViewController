@@ -25,8 +25,8 @@
 
 import UIKit
 
-class FANavigationController: UINavigationController {
-    func finePushViewController(_ controller: UIViewController,
+extension UINavigationController {
+    public func finePushViewController(_ controller: UIViewController,
                                 animationType: CATransitionType = .push,
                                 animationSubType: CATransitionSubtype? = nil,
                                 duration: CFTimeInterval = 0.4) {
@@ -44,7 +44,7 @@ class FANavigationController: UINavigationController {
         
     }
     
-    func finePopViewController(popToRoot: Bool,
+    public func finePopViewController(popToRoot: Bool,
                                animationType: CATransitionType = .push,
                                animationSubType: CATransitionSubtype? = nil,
                                duration: CFTimeInterval = 0.4) {
