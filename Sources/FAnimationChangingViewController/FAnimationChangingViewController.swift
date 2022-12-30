@@ -25,8 +25,7 @@
 
 import UIKit
 
-extension UINavigationController {
-    
+class FANavigationController: UINavigationController {
     func finePushViewController(_ controller: UIViewController,
                                 animationType: CATransitionType = .push,
                                 animationSubType: CATransitionSubtype? = nil,
@@ -66,5 +65,6 @@ extension UINavigationController {
         }
         
     }
-}
 
+    
+}
