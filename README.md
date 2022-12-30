@@ -9,6 +9,9 @@
 A description of this package.
 This package have two functions: finePushViewController and finePopViewController, they are writen as extension for UINavigationController and allows to push to new/pop ViewController with choosing easy build in animations.
 
+### Note
+Compatible FROM swift 5, and ios 13
+
 ### Functions Introduction
 
 ```swift
@@ -28,7 +31,7 @@ public func finePopViewController(popToRoot: Bool,
 
 [Cocoapods](https://cocoapods.org/#install) To use FAnimationChangingViewController with CocoaPods, add it in your `Podfile`. 
 Close your project. Go to your directory with project in terminal ➡️ paste `pod init` ➡️ change Podfile - add ⬇️ line before "end" in file
-line: ```ruby
+```ruby
 pod 'FAnimationChangingViewController'
 ```
 ✅ `pod install` in terminal
@@ -56,9 +59,9 @@ import FAnimationChangingViewController
 You need to use `UINavigationController`, initiate for example in `AppDelegate.swift` as in my Example folder and now you can use it instead of `pushToViewController(...)` or `popViewController`
 
 ```swift
-navigationController?.finePushViewController(ExampleFineViewController(), animationType: .moveIn, animationSubType: .fromBottom)
+navigationController?.finePushViewController(ExampleFineViewController(), animationType: .moveIn, animationSubType: .fromBottom, duration: 1.0)
 
-navigationController?.finePushViewController(ExampleFineViewController(), animationSubType: .fromTop, duration: 1.0)
+navigationController?.finePushViewController(ExampleFineViewController(), animationSubType: .fromTop)
 
 navigationController?.finePopViewController(popToRoot: false, animationType: .fade)
 ```
