@@ -30,7 +30,8 @@ public func finePopViewController(popToRoot: Bool,
 
 ### Cocoapods
 
-[Cocoapods](https://cocoapods.org/#install) To use FAnimationChangingViewController with CocoaPods, add it in your `Podfile`. 
+[Cocoapods](https://cocoapods.org/#install) To use 
+nimationChangingViewController with CocoaPods, add it in your `Podfile`. 
 Close your project. Go to your directory with project in terminal ➡️ paste `pod init` ➡️ change Podfile - add ⬇️ line before "end" in file
 ```ruby
 pod 'FAnimationChangingViewController'
@@ -44,7 +45,7 @@ The [Swift Package Manager](https://swift.org/package-manager/) is a tool for ma
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/ninjaprox/FAnimationChangingViewController.git")
+    .package(url: "https://github.com/foxfollow/FAnimationChangingViewController.git")
 ]
 ```
 
