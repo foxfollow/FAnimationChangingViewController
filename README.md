@@ -1,6 +1,7 @@
 # FAnimationChangingViewController
 ![from swift 5.0](https://img.shields.io/badge/swift-5.0-orange.svg)
 ![from iOS 13](https://img.shields.io/badge/ios-13-red.svg)
+![UINavigationController for UIKit](https://img.shields.io/badge/UIKit-UINavigationController-yellow)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/FAnimationChangingViewController.svg)](https://img.shields.io/cocoapods/v/FAnimationChangingViewController.svg)
 ![SPM supported](https://img.shields.io/badge/SPM-supported-green)
 
